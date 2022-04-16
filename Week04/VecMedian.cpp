@@ -1,9 +1,10 @@
 #include <iostream>
+#include <algorithm>
 #include <sstream>
 #include <string>
 #include <vector>
 
-#define SIZE 5
+#define SIZE 6
 
 int getInteger();
 void populateVector(std::vector<int> &vi, int size);
@@ -22,14 +23,23 @@ int main(void){
 }
 
 void printMedian(std::vector<int> &vi, int size){
-  for(int i=0; i<size; i++){
-    
+  std::sort(vi.begin(), vi.end());
+  size_t mid = size / 2;
+  double median = 0;
+  if(size %2 == 0){
+    // If it's length is even
+    median = (vi[mid] + vi[mid-1])/2;
+    }else{
+    // If it's length is odd
+    median = vi[mid];
   }
-    
+  std::cout << "Median of the vector is " << median << std::endl;
 }
 
 void populateVector(std::vector<int> &vi, int size){
+  std::cout << "Enter values to populate vector " << std::endl;
     for(int i=0; i<size; i++){
+      std::cout << "("<<size - i << ")" << " values left: ";
       int x =  getInteger();
       vi.push_back(x);
     } 
