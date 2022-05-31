@@ -1,7 +1,13 @@
-const int SIZE = 10;
+#include <iostream>
+#include <vector>
 
-void getInput(){
+using namespace std;
+
+const int SIZE = 2;
+
+void getInput(vector<int> vi){
 	cout << "Enter integers to average: " << endl;
+	int tmp = 0;
 	for(size_t i=0; i<SIZE; i++){
 		cout << "(" << SIZE - i << ") left: ";
 		cin >> tmp;
@@ -10,7 +16,10 @@ void getInput(){
 }
 
 double calculateAverage(vector<int> vi){
-	for(size_t i=0; ; i++){
+	int sum = 0;
+	int size_of_vi = vi.size();
+
+	for(size_t i=0; i<size_of_vi ; i++){
 		sum += vi[i];
 	}
 
