@@ -6,16 +6,12 @@
 class Circle {
 public:
   double radius;
-  static :int countObj;
 
-  Circle();
+  Circle() const;
   Circle(double newRadius);
 
-  double getArea();
-  static int getObjCount(); 
-
-  /* toString methods prints bal */
-  void toString(void);
+  double getArea() const;
+  void toString(void) const;
 };
 
 #endif
