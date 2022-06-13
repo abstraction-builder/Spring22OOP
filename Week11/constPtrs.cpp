@@ -5,6 +5,9 @@ int main(){
     int y = 107;
 
     const int* pX = &x; 
-    pX = &y;
+    std::cout << pX << std::endl;
+    x = 12;
+    std::cout << pX << std::endl;
 
+    return 0;
 }
