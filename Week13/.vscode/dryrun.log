@@ -1,0 +1,5 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/abstraction-builder/ISU/Spring2022/Spring22OOP/Week13'
+clang++ GeometricObject.cpp DerivedCircle.cpp DerivedRectangle.cpp  TestGeometricObjects.cpp -o geometricObject
+make: Leaving directory '/home/abstraction-builder/ISU/Spring2022/Spring22OOP/Week13'
+ 

@@ -1,9 +1,13 @@
 CC = clang++
-SOURCE = GeometricObject.cpp DerivedCircle.cpp DerivedRectangle.cpp TestGeometricObjects.cpp
+SOURCE = GeometricObject.cpp DerivedCircle.cpp DerivedRectangle.cpp 
 OBJ = geometricObject
+POLY = poly
 
-make:
-	$(CC) $(SOURCE) -o $(OBJ)
+geobj:
+	$(CC) $(SOURCE) TestGeometricObjects.cpp -o $(OBJ)
+
+poly:
+	$(CC) $(SOURCE) polymorphismDemo.cpp -o $(POLY)
 
 clean:
-	rm $(OBJ)
+	rm $(OBJ) $(POLY)
