@@ -12,7 +12,7 @@ class GeometricObject {
         void setColor(const string& color);
         bool isFilled() const;
         void setFilled(bool filled);
-        string toString() const;
+        virtual string toString() const;
 
     private:
         string color;

@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jun 25 08:10:56 2022
+# Make data base, printed on Tue Jul  5 19:50:17 2022
 
 # Variables
 
@@ -55,7 +55,7 @@ POLY = poly
 # environment
 _ = /usr/bin/code
 # environment
-JOURNAL_STREAM = 8:50643
+JOURNAL_STREAM = 8:51562
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # makefile (from 'Makefile', line 1)
@@ -77,9 +77,9 @@ DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-MANAGERPID = 2154
+MANAGERPID = 2105
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-ee52f017-19fc-4e59-be6c-9f5ff897ac07.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-10d0a6f7-178c-4d77-a7a5-a59a2dd359dc.sock
 # environment
 LC_NAME = ka_GE.UTF-8
 # environment
@@ -91,11 +91,9 @@ NO_PROXY = 127.0.0.1
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-GJS_DEBUG_OUTPUT = stderr
-# environment
 LSCOLORS = Gxfxcxdxbxegedabagacad
 # environment
-SESSION_MANAGER = local/Sycamore:@/tmp/.ICE-unix/2369,unix/Sycamore:/tmp/.ICE-unix/2369
+SESSION_MANAGER = local/Sycamore:@/tmp/.ICE-unix/2318,unix/Sycamore:/tmp/.ICE-unix/2318
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -105,7 +103,7 @@ VSCODE_LOG_STACK = false
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = 6bc339f3397d436b924780f1f08c51b0
+INVOCATION_ID = 1ce2df71b12f4fcd8e6b70043aa18b05
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -127,7 +125,7 @@ PWD = /home/abstraction-builder/ISU/Spring2022/Spring22OOP/Week13
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 2331
+SSH_AGENT_PID = 2280
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -157,7 +155,7 @@ GNOME_DESKTOP_SESSION_ID = this-is-deprecated
 # environment
 LC_TIME = ka_GE.UTF-8
 # environment
-PLATFORMIO_PATH = /home/abstraction-builder/.platformio/penv/bin:/home/abstraction-builder/.platformio/penv:/home/abstraction-builder/.platformio/python3/bin:/home/abstraction-builder/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+PLATFORMIO_PATH = /home/abstraction-builder/.platformio/python3/bin:/home/abstraction-builder/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 # environment
 COLORTERM = truecolor
 # default
@@ -195,7 +193,7 @@ LC_TELEPHONE = ka_GE.UTF-8
 # default
 MAKE_COMMAND := make
 # environment
-OLDPWD = /home/abstraction-builder/ISU/Spring2022
+OLDPWD = /home/abstraction-builder/ISU/Spring2022/Spring22OOP
 # default
 .VARIABLES := 
 # automatic
@@ -233,14 +231,11 @@ PAGER = less
 # environment
 LC_ALL = C
 # environment
-GJS_DEBUG_TOPICS = JS ERROR;JS LOG
-# environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/e1d500e6_dd9c_415e_bdd7_90e45eb09c8d
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/09fa4a42_75ac_4824_92ac_f1387c15b3cd
 # automatic
 ^F = $(notdir $^)
 # environment
-GNOME_TERMINAL_SERVICE = :1.131
- 
+GNOME_TERMINAL_SERVICE = :1.115
 # default
 SUFFIXES := 
 # environment
@@ -260,9 +255,9 @@ LANG = C
 # environment
 TERM = xterm-256color
 # environment
-VSCODE_PID = 5984
+VSCODE_PID = 7167
 # variable set hash-table stats:
-# Load=124/1024=12%, Rehash=0, Collisions=23/149=15%
+# Load=122/1024=12%, Rehash=0, Collisions=22/147=15%
 
 # Pattern-specific Variable Values
 
@@ -270,9 +265,9 @@ VSCODE_PID = 5984
 
 # Directories
 
-# . (device 2050, inode 11537819): 14 files, no impossibilities.
+# . (device 2050, inode 11537819): 17 files, no impossibilities.
 
-# 14 files, no impossibilities in 1 directories.
+# 17 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -283,6 +278,7 @@ VSCODE_PID = 5984
 # Not a target:
 all:
 #  Command line target.
+ 
 #  Implicit rule search has been done.
 #  File does not exist.
 #  File has not been updated.
@@ -329,12 +325,12 @@ geobj:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 22 / storage = 279 B / avg = 12 B
-# current buf: size = 8162 B / used = 279 B / count = 22 / avg = 12 B
+# strcache buffers: 1 (0) / strings = 24 / storage = 308 B / avg = 12 B
+# current buf: size = 8162 B / used = 308 B / count = 24 / avg = 12 B
 
-# strcache performance: lookups = 29 / hit rate = 24%
+# strcache performance: lookups = 32 / hit rate = 25%
 # hash-table stats:
-# Load=22/8192=0%, Rehash=0, Collisions=1/29=3%
-# Finished Make data base on Sat Jun 25 08:10:56 2022
+# Load=24/8192=0%, Rehash=0, Collisions=1/32=3%
+# Finished Make data base on Tue Jul  5 19:50:17 2022
 
  
